@@ -1,7 +1,20 @@
 @import "partials/variables";
 @import "partials/colors";
 @import "partials/fonts";
+@import "partials/grids";
 @import "components/button";
 @import "components/navbar";
 @import "components/priceplan";
 @import "components/headers";
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+*{
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{text-decoration: none;}

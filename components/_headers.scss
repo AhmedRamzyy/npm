@@ -1,1 +1,46 @@
 // desc: 'Contain headers styles on every page'
+@import "partials/grids";
+@import "partials/colors";
+@import "partials/variables";
+
+
+.heading {
+   .header {
+      @extend %display-flex;
+      font-family: $link-font-family;
+      p {
+         width: 30%;
+         color: $black;
+         i {
+            margin-right: 20px;
+            transition: $transition;
+            &:hover{
+               color: $hover-gray;
+            }
+         }
+         a {
+            color: $black;
+            font-size: $link-font;
+            transition: $transition;
+            &:hover {
+               color: $hover-gray;
+            }
+         }
+      }
+      .header-list {
+         width: 45%;
+         @extend %display-flex;
+         li {
+            display: inline-block;
+            a {
+               color: $black;
+               font-size: $link-font;
+               transition: $transition;
+               &:hover {
+                  color: $hover-gray;
+               }
+            }
+         }
+      }
+   }
+}
