@@ -1,7 +1,9 @@
+@import "partials/colors";
+
 %btn{
     text-decoration: none;
     font-size: $btn-font;
-    color: white;
+    color: $white;
     width: fit-content;
     padding: $btn-padding;
     border-radius: $btn-radius;
