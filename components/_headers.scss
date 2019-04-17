@@ -5,12 +5,14 @@
 
 
 .heading {
+   border-bottom: .5px solid $border-color;
    .header {
       @extend %display-flex;
       font-family: $link-font-family;
       p {
          width: 30%;
          color: $black;
+         margin-bottom: 0;
          i {
             margin-right: 20px;
             transition: $transition;
@@ -28,8 +30,9 @@
          }
       }
       .header-list {
-         width: 45%;
          @extend %display-flex;
+         width: 45%;
+         margin-bottom: 0;
          li {
             display: inline-block;
             a {

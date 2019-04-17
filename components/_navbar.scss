@@ -2,9 +2,10 @@
 @import "partials/grids";
 @import "partials/variables";
 
-.heading {
+.navigation{
     .navbar {
         @extend %display-flex;
+        padding-top: 10px;
         .logo {
             width: 100px;
             img {
@@ -39,6 +40,11 @@
         a {
             display: block;
             color: $black;
+            font-family: $link-font-family;
+            font-size: $link-font;
+            &:hover{
+                color: $hover-gray;
+            }
         }
     }
 }
