@@ -9,7 +9,7 @@
   transition: all 0.3s ease-in-out;
   display: block; }
 
-.navigation .navbar, .navigation .navbar .search-bar, .heading .header, .heading .header .header-list {
+.navigation .navbar, .navigation .navbar .search-bar, .heading .header, .heading .header .header-list, .discover .services-row {
   display: flex;
   justify-content: space-between;
   align-items: center; }
@@ -24,7 +24,7 @@
   transition: all 0.3s ease-in-out;
   display: block; }
 
-.navigation .navbar, .navigation .navbar .search-bar, .heading .header, .heading .header .header-list {
+.navigation .navbar, .navigation .navbar .search-bar, .heading .header, .heading .header .header-list, .discover .services-row {
   display: flex;
   justify-content: space-between;
   align-items: center; }
@@ -60,7 +60,7 @@
   transition: all 0.3s ease-in-out;
   display: block; }
 
-.navigation .navbar, .navigation .navbar .search-bar, .heading .header, .heading .header .header-list {
+.navigation .navbar, .navigation .navbar .search-bar, .heading .header, .heading .header .header-list, .discover .services-row {
   display: flex;
   justify-content: space-between;
   align-items: center; }
@@ -91,7 +91,7 @@
       padding-left: 15px;
       border-radius: 10px; }
       .navigation .navbar .search-bar input[type="search"]::placeholder {
-        font-family: 'Fira Mono', monospace;
+        font-family: "Fira Mono", monospace;
         font-size: 15px; }
       .navigation .navbar .search-bar input[type="search"]:focus {
         border: 1px solid #a09e9e; }
@@ -113,7 +113,7 @@
   transition: all 0.3s ease-in-out;
   display: block; }
 
-.navigation .navbar, .navigation .navbar .search-bar, .heading .header, .heading .header .header-list {
+.navigation .navbar, .navigation .navbar .search-bar, .heading .header, .heading .header .header-list, .discover .services-row {
   display: flex;
   justify-content: space-between;
   align-items: center; }
@@ -170,7 +170,7 @@ a {
   background: url(images/desc.SVG);
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 80vh;
   padding: 90px 0; }
   .npm-desc .description {
     width: 30%;
@@ -190,11 +190,11 @@ a {
 
 .about-org {
   background: #051b2df5;
-  min-height: 100vh; }
+  min-height: 90vh; }
   .about-org .collaboration {
     display: flex;
     align-items: stretch;
-    padding-top: 160px; }
+    padding-top: 80px; }
     .about-org .collaboration .collab-img {
       width: 60%; }
     .about-org .collaboration .collab-desc {
@@ -223,5 +223,70 @@ a {
         transition: all 0.3s ease-in-out; }
         .about-org .collaboration .collab-desc a.learn-more:hover {
           color: #a09e9e; }
+
+.what-npm {
+  background: url(images/npm-is-BOXES.svg);
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  padding: 90px 0; }
+  .what-npm .desc {
+    width: 30%;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: sans-serif; }
+    .what-npm .desc h3 {
+      font-size: 35px;
+      margin-bottom: 15px;
+      font-weight: 100;
+      line-height: 1.2; }
+    .what-npm .desc p {
+      color: #f0ebeb;
+      font-size: 15px;
+      margin-top: 0;
+      line-height: 1.7;
+      margin-bottom: 35px; }
+    .what-npm .desc a {
+      padding: 5px 45px; }
+
+.discover header {
+  text-align: center; }
+  .discover header h4 {
+    font-size: 27px;
+    margin-bottom: 0;
+    font-family: sans-serif; }
+  .discover header p {
+    color: #3a3939;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif; }
+.discover .services-row {
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: space-around; }
+  .discover .services-row .service-box {
+    width: 25%;
+    text-align: center; }
+    .discover .services-row .service-box .image-box img {
+      width: 80px; }
+    .discover .services-row .service-box .explain .ex-head {
+      color: black;
+      display: block;
+      font-size: 20px;
+      margin-bottom: 0;
+      margin-top: 10px;
+      font-family: "Poppins", sans-serif; }
+    .discover .services-row .service-box .explain p {
+      font-family: sans-serif;
+      font-size: 14px;
+      line-height: 1.5;
+      margin-top: 5px;
+      color: #3a3939; }
+      .discover .services-row .service-box .explain p span {
+        display: inline-block;
+        font-weight: 600;
+        color: #e41818; }
 
 /*# sourceMappingURL=style.css.map */

@@ -35,7 +35,7 @@
                 padding-left: 15px;
                 border-radius: 10px;
                 &::placeholder{
-                    font-family: 'Fira Mono', monospace;
+                    font-family: $fira-mono;
                     font-size: 15px;
                 }
                 &:focus{
@@ -46,7 +46,7 @@
         a {
             display: block;
             color: $black;
-            font-family: $link-font-family;
+            font-family: $poppins;
             font-size: $link-font;
             &:hover{
                 color: $hover-gray;

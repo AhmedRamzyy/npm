@@ -8,7 +8,7 @@
    border-bottom: .5px solid $border-color;
    .header {
       @extend %display-flex;
-      font-family: $link-font-family;
+      font-family: $poppins;
       p {
          width: 30%;
          color: $black;
