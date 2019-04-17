@@ -1,0 +1,33 @@
+/* Start Import */
+.btn-yellow, .btn-blue, .btn-gray, .btn-red {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 25px;
+  transition: all 0.2s ease-in-out; }
+
+.btn-yellow {
+  background-color: #c79901; }
+  .btn-yellow:hover {
+    background-color: rgba(199, 153, 1, 0.7); }
+
+.btn-blue {
+  background-color: #085dad; }
+  .btn-blue:hover {
+    background-color: rgba(8, 93, 173, 0.7); }
+
+.btn-gray {
+  background-color: #2b2a2a; }
+  .btn-gray:hover {
+    background-color: rgba(43, 42, 42, 0.7); }
+
+.btn-red {
+  background-color: #d41d5a; }
+  .btn-red:hover {
+    background-color: rgba(212, 29, 90, 0.7); }
+
+body {
+  margin: 100px; }
+
+/*# sourceMappingURL=style.css.map */
