@@ -14,13 +14,13 @@
             }
         }
         .search-bar {
-            height: 50px;
-            width: 60%;
             @extend %display-flex;
+            width: 60%;
+            height: 50px;
             span {
-                display: block;
-                height: 40px;
                 width: 40px;
+                height: 40px;
+                display: block;
                 padding: 8px 0 0 13px;
                 img {
                     max-width: 100%;
@@ -36,7 +36,7 @@
                 border-radius: 10px;
                 &::placeholder{
                     font-family: $fira-mono;
-                    font-size: 15px;
+                    font-size: $heading-f-size - 20;
                 }
                 &:focus{
                     border: 1px solid $hover-gray;

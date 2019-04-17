@@ -17,3 +17,16 @@
     align-items: center;
 }
 
+%background-cover{
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+%row-container{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-around;
+}

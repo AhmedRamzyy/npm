@@ -14,6 +14,18 @@
   justify-content: space-between;
   align-items: center; }
 
+.npm-desc, .what-npm {
+  height: 80vh;
+  background-size: cover;
+  background-position: center; }
+
+.about-org .collaboration, .what-npm, .discover .services-row, .enterprise .enterprise-row {
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: space-around; }
+
 .btn-yellow, .btn-blue, .btn-gray, .btn-red {
   text-decoration: none;
   font-size: 20px;
@@ -28,6 +40,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center; }
+
+.npm-desc, .what-npm {
+  height: 80vh;
+  background-size: cover;
+  background-position: center; }
+
+.about-org .collaboration, .what-npm, .discover .services-row, .enterprise .enterprise-row {
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: space-around; }
 
 .btn-yellow {
   background-color: #ee8a0f; }
@@ -65,6 +89,18 @@
   justify-content: space-between;
   align-items: center; }
 
+.npm-desc, .what-npm {
+  height: 80vh;
+  background-size: cover;
+  background-position: center; }
+
+.about-org .collaboration, .what-npm, .discover .services-row, .enterprise .enterprise-row {
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: space-around; }
+
 .navigation .navbar {
   padding-top: 20px;
   padding-bottom: 20px; }
@@ -73,12 +109,12 @@
     .navigation .navbar .logo img {
       max-width: 100%; }
   .navigation .navbar .search-bar {
-    height: 50px;
-    width: 60%; }
+    width: 60%;
+    height: 50px; }
     .navigation .navbar .search-bar span {
-      display: block;
-      height: 40px;
       width: 40px;
+      height: 40px;
+      display: block;
       padding: 8px 0 0 13px; }
       .navigation .navbar .search-bar span img {
         max-width: 100%; }
@@ -117,6 +153,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center; }
+
+.npm-desc, .what-npm {
+  height: 80vh;
+  background-size: cover;
+  background-position: center; }
+
+.about-org .collaboration, .what-npm, .discover .services-row, .enterprise .enterprise-row {
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: space-around; }
 
 .heading {
   border-bottom: 0.5px solid #e5e3e3; }
@@ -168,9 +216,6 @@ a {
 
 .npm-desc {
   background: url(images/desc.SVG);
-  background-size: cover;
-  background-position: center;
-  height: 80vh;
   padding: 90px 0; }
   .npm-desc .description {
     width: 30%;
@@ -189,11 +234,10 @@ a {
       margin-bottom: 35px; }
 
 .about-org {
-  min-height: 90vh;
   background: #051b2df5; }
   .about-org .collaboration {
-    align-items: stretch;
-    padding-top: 80px; }
+    width: 100%;
+    align-items: stretch; }
     .about-org .collaboration .collab-img {
       width: 60%; }
     .about-org .collaboration .collab-desc {
@@ -202,120 +246,106 @@ a {
       margin-left: 70px; }
       .about-org .collaboration .collab-desc h2 {
         margin-top: 0;
-        font-size: 35px;
         font-weight: 100;
         margin-bottom: 0;
-        font-family: "Poppins", sans-serif; }
+        font-family: "Poppins", sans-serif;
+        font-size: 35px; }
       .about-org .collaboration .collab-desc ul {
         list-style: unset; }
         .about-org .collaboration .collab-desc ul li {
-          font-size: 20px;
           line-height: 1.3;
-          margin-bottom: 20px; }
+          margin-bottom: 20px;
+          font-size: 20px; }
       .about-org .collaboration .collab-desc a.learn-more {
         margin: auto;
         display: block;
         color: white;
-        font-size: 20px;
         margin-top: 10px;
         width: fit-content;
-        transition: all 0.3s ease-in-out; }
+        transition: all 0.3s ease-in-out;
+        font-size: 20px; }
         .about-org .collaboration .collab-desc a.learn-more:hover {
           color: #a09e9e; }
 
 .what-npm {
   background: url(images/npm-is-BOXES.svg);
-  background-size: cover;
-  background-position: center;
-  height: 70vh;
-  padding: 90px 0; }
+  width: 100%; }
   .what-npm .desc {
     width: 30%;
     color: white;
+    margin-top: 70px;
     padding-left: 10px;
     padding-right: 10px;
     font-family: sans-serif; }
     .what-npm .desc h3 {
-      font-size: 35px;
-      line-height: 1.2;
       font-weight: 100;
-      margin-bottom: 15px; }
+      line-height: 1.2;
+      margin-bottom: 15px;
+      font-size: 35px; }
     .what-npm .desc p {
       margin-top: 0;
-      font-size: 15px;
       line-height: 1.7;
       color: #f0ebeb;
-      margin-bottom: 35px; }
+      margin-bottom: 35px;
+      font-size: 15px; }
     .what-npm .desc a {
       padding: 5px 45px; }
 
 .discover header {
   text-align: center; }
   .discover header h4 {
-    font-size: 27px;
     margin-bottom: 0;
-    font-family: sans-serif; }
+    font-family: sans-serif;
+    font-size: 27px; }
   .discover header p {
     color: #3a3939;
-    font-size: 15px;
-    font-family: "Poppins", sans-serif; }
-.discover .services-row {
-  width: 80%;
-  margin: auto;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  justify-content: space-around; }
-  .discover .services-row .service-box {
-    width: 25%;
-    text-align: center; }
-    .discover .services-row .service-box .image-box img {
-      width: 80px; }
-    .discover .services-row .service-box .explain .ex-head {
-      color: black;
-      display: block;
-      font-size: 20px;
-      margin-top: 10px;
-      margin-bottom: 0;
-      font-family: "Poppins", sans-serif; }
-    .discover .services-row .service-box .explain p {
-      color: #3a3939;
-      margin-top: 5px;
-      font-size: 14px;
-      line-height: 1.5;
-      font-family: sans-serif; }
-      .discover .services-row .service-box .explain p span {
-        color: #e41818;
-        font-weight: 600;
-        display: inline-block; }
+    font-family: "Poppins", sans-serif;
+    font-size: 15px; }
+.discover .services-row .service-box {
+  width: 25%;
+  text-align: center; }
+  .discover .services-row .service-box .image-box img {
+    width: 80px; }
+  .discover .services-row .service-box .explain .ex-head {
+    color: black;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px; }
+  .discover .services-row .service-box .explain p {
+    color: #3a3939;
+    margin-top: 5px;
+    line-height: 1.5;
+    font-family: sans-serif;
+    font-size: 15px; }
+    .discover .services-row .service-box .explain p span {
+      color: #e41818;
+      font-weight: 600;
+      display: inline-block; }
 
 .enterprise {
-  background: #0e2335; }
-  .enterprise .enterprise-row {
-    width: 80%;
-    margin: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    justify-content: space-around; }
-    .enterprise .enterprise-row .mountain-img {
-      width: 40%; }
-    .enterprise .enterprise-row .about-enterprise {
-      width: 45%;
-      color: #fff; }
-      .enterprise .enterprise-row .about-enterprise h5 {
-        font-size: 25px;
-        font-weight: 100;
-        margin-bottom: 25px;
-        font-family: "Poppins", sans-serif; }
-      .enterprise .enterprise-row .about-enterprise p {
-        color: #d6d6d6;
-        font-size: 15px;
-        line-height: 1.5;
-        margin-bottom: 40px;
-        font-family: "Poppins", sans-serif; }
-      .enterprise .enterprise-row .about-enterprise a {
-        margin: unset;
-        font-size: 15px;
-        padding: 5px 18px;
-        font-family: "Poppins", sans-serif; }
+  background: #051b2df5; }
+  .enterprise .enterprise-row .mountain-img {
+    width: 40%; }
+  .enterprise .enterprise-row .about-enterprise {
+    width: 45%;
+    color: #fff; }
+    .enterprise .enterprise-row .about-enterprise h5 {
+      font-size: 25px;
+      font-weight: 100;
+      margin-bottom: 25px;
+      font-family: "Poppins", sans-serif; }
+    .enterprise .enterprise-row .about-enterprise p {
+      color: #d6d6d6;
+      font-size: 15px;
+      line-height: 1.5;
+      margin-bottom: 40px;
+      font-family: "Poppins", sans-serif; }
+    .enterprise .enterprise-row .about-enterprise a {
+      margin: unset;
+      font-size: 15px;
+      padding: 5px 18px;
+      font-family: "Poppins", sans-serif; }
 
 /*# sourceMappingURL=style.css.map */
