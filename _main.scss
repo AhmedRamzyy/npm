@@ -89,6 +89,10 @@ a{text-decoration: none;}
                 width: fit-content;
                 font-size: 20px;
                 margin-top: 10px;
+                transition: $transition ;
+                &:hover{
+                    color: $hover-gray;
+                }
             }
         }
     }
