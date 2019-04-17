@@ -26,6 +26,9 @@
   padding-bottom: 50px;
   justify-content: space-around; }
 
+.discover header, .discover .services-row .service-box {
+  text-align: center; }
+
 .btn-yellow, .btn-blue, .btn-gray, .btn-red {
   text-decoration: none;
   font-size: 20px;
@@ -52,6 +55,9 @@
   padding-top: 50px;
   padding-bottom: 50px;
   justify-content: space-around; }
+
+.discover header, .discover .services-row .service-box {
+  text-align: center; }
 
 .btn-yellow {
   background-color: #ee8a0f; }
@@ -100,6 +106,9 @@
   padding-top: 50px;
   padding-bottom: 50px;
   justify-content: space-around; }
+
+.discover header, .discover .services-row .service-box {
+  text-align: center; }
 
 .navigation .navbar {
   padding-top: 20px;
@@ -166,6 +175,9 @@
   padding-bottom: 50px;
   justify-content: space-around; }
 
+.discover header, .discover .services-row .service-box {
+  text-align: center; }
+
 .heading {
   border-bottom: 0.5px solid #e5e3e3; }
   .heading .header {
@@ -219,7 +231,7 @@ a {
   padding: 90px 0; }
   .npm-desc .description {
     width: 30%;
-    color: white;
+    color: #fff;
     font-family: "Poppins", sans-serif; }
     .npm-desc .description h1 {
       font-size: 35px;
@@ -230,7 +242,7 @@ a {
       margin-top: 0;
       font-size: 15px;
       line-height: 1.7;
-      color: #b7b3b3;
+      color: #afc6d2;
       margin-bottom: 35px; }
 
 .about-org {
@@ -242,7 +254,7 @@ a {
       width: 60%; }
     .about-org .collaboration .collab-desc {
       width: 40%;
-      color: white;
+      color: #fff;
       margin-left: 70px; }
       .about-org .collaboration .collab-desc h2 {
         margin-top: 0;
@@ -259,7 +271,7 @@ a {
       .about-org .collaboration .collab-desc a.learn-more {
         margin: auto;
         display: block;
-        color: white;
+        color: #fff;
         margin-top: 10px;
         width: fit-content;
         transition: all 0.3s ease-in-out;
@@ -272,7 +284,7 @@ a {
   width: 100%; }
   .what-npm .desc {
     width: 30%;
-    color: white;
+    color: #fff;
     margin-top: 70px;
     padding-left: 10px;
     padding-right: 10px;
@@ -285,29 +297,26 @@ a {
     .what-npm .desc p {
       margin-top: 0;
       line-height: 1.7;
-      color: #f0ebeb;
+      color: #afc6d2;
       margin-bottom: 35px;
       font-size: 15px; }
     .what-npm .desc a {
       padding: 5px 45px; }
 
-.discover header {
-  text-align: center; }
-  .discover header h4 {
-    margin-bottom: 0;
-    font-family: sans-serif;
-    font-size: 27px; }
-  .discover header p {
-    color: #3a3939;
-    font-family: "Poppins", sans-serif;
-    font-size: 15px; }
+.discover header h4 {
+  margin-bottom: 0;
+  font-family: sans-serif;
+  font-size: 27px; }
+.discover header p {
+  color: #3a3939;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px; }
 .discover .services-row .service-box {
-  width: 25%;
-  text-align: center; }
+  width: 25%; }
   .discover .services-row .service-box .image-box img {
     width: 80px; }
   .discover .services-row .service-box .explain .ex-head {
-    color: black;
+    color: #000;
     display: block;
     margin-top: 10px;
     margin-bottom: 0;
@@ -337,7 +346,7 @@ a {
       margin-bottom: 25px;
       font-family: "Poppins", sans-serif; }
     .enterprise .enterprise-row .about-enterprise p {
-      color: #d6d6d6;
+      color: #afc6d2;
       font-size: 15px;
       line-height: 1.5;
       margin-bottom: 40px;

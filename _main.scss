@@ -32,7 +32,7 @@ a{text-decoration: none;}
     padding: 90px 0;
     .description{
         width: 30%;
-        color: white;
+        color: $white;
         font-family: $poppins;
         h1{
             font-size: $heading-f-size;
@@ -44,7 +44,7 @@ a{text-decoration: none;}
             margin-top: 0;
             font-size: $heading-f-size - 20;
             line-height: 1.7;
-            color: #b7b3b3;
+            color: $para-color;
             margin-bottom: 35px;
         }
     }
@@ -63,7 +63,7 @@ a{text-decoration: none;}
                 }
         .collab-desc{
             width: 40%;
-            color: white;
+            color: $white;
             margin-left: 70px;
             h2{
                 margin-top: 0;
@@ -83,7 +83,7 @@ a{text-decoration: none;}
             a.learn-more{
                 margin: auto;
                 display: block;
-                color: white;
+                color: $white;
                 margin-top: 10px;
                 width: fit-content;
                 transition: $transition ;
@@ -104,7 +104,7 @@ a{text-decoration: none;}
     width: 100%;
     .desc{
         width: 30%;
-        color: white;
+        color: $white;
         margin-top: 70px;
         padding-left: 10px;
         padding-right: 10px;
@@ -118,7 +118,7 @@ a{text-decoration: none;}
         p{
             margin-top: 0;
             line-height: 1.7;
-            color: #f0ebeb;
+            color: $para-color;
             margin-bottom: 35px;
             font-size: $heading-f-size - 20;
         }
@@ -130,7 +130,7 @@ a{text-decoration: none;}
 // discover
 .discover{
     header{
-        text-align: center;
+        @extend %txt-center;
         h4{
             margin-bottom: 0;
             font-family: $sans ;
@@ -146,8 +146,8 @@ a{text-decoration: none;}
         @extend %display-flex;
         @extend %row-container;
         .service-box{
+            @extend %txt-center;
             width: 25%;
-            text-align: center;
             .image-box{
                 img{
                     width: 80px;
@@ -155,7 +155,7 @@ a{text-decoration: none;}
             }
             .explain{
                 .ex-head{
-                    color: black;
+                    color: $black;
                     display: block;
                     margin-top: 10px;
                     margin-bottom: 0;
@@ -190,7 +190,7 @@ a{text-decoration: none;}
         }
         .about-enterprise{
             width: 45%;
-            color: #fff;
+            color: $white;
             h5{
                 font-size: 25px;
                 font-weight: 100;
@@ -198,7 +198,7 @@ a{text-decoration: none;}
                 font-family: $poppins;
             }
             p{
-                color: $white;
+                color: $para-color;
                 font-size: 15px;
                 line-height: 1.5;
                 margin-bottom: 40px;

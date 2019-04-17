@@ -3,7 +3,7 @@
 %btn{
     text-decoration: none;
     font-size: $btn-font;
-    color: $white;
+    color: $btn-color;
     width: fit-content;
     padding: $btn-padding;
     border-radius: $btn-radius;
@@ -29,4 +29,8 @@
     padding-top: 50px;
     padding-bottom: 50px;
     justify-content: space-around;
+}
+
+%txt-center{
+    text-align: center;
 }
