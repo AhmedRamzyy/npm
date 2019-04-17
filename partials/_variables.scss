@@ -2,10 +2,11 @@
 
 // button
 $btn-radius: 25px;
-$btn-font: 25px;
-$btn-padding: 6px 10px;
-$transition: all .2s ease-in-out;
+$btn-font: 20px;
+$btn-padding: 5px 80px;
+$btn-hvr: translateY(-10px);
+$transition: all .3s ease-in-out;
 
 // links
 $link-font: 15px;
-$link-font-family:'Poppins', sans-serif;
+$link-font-family: 'Poppins', sans-serif;

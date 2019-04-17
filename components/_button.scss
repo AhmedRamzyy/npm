@@ -1,40 +1,33 @@
 // desc: 'Contain buttons styles'
 @import "partials/colors";
-%btn{
-    text-decoration: none;
-    font-size: $btn-font;
-    color: white;
-    padding: $btn-padding;
-    border-radius: $btn-radius;
-    transition: $transition;
-}
+@import "partials/extend-classes";
 
 .btn-yellow{
     @extend %btn ;
-    background-color: rgba($yellow, 1) ;
+    background-color: $yellow ;
     &:hover{
-        background-color: rgba($yellow, .7) ;
+        transform: $btn-hvr;
     }
 }
 
 .btn-blue{
     @extend %btn;
-    background-color: rgba($blue, 1);
+    background-color: $blue;
     &:hover{
-        background-color: rgba($blue, .7);
+        transform: $btn-hvr;
     }
 }
 .btn-gray{
     @extend %btn;
-    background-color: rgba($gray, 1);
+    background-color: $gray;
     &:hover{
-        background-color: rgba($gray, .7);
+        transform: $btn-hvr;
     }
 }
 .btn-red{
     @extend %btn;
-    background-color: rgba($red, 1);
+    background-color: $red;
     &:hover{
-        background-color: rgba($red, .7);
+        transform: $btn-hvr;
     }
 }

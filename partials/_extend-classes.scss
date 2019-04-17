@@ -1,0 +1,17 @@
+%btn{
+    text-decoration: none;
+    font-size: $btn-font;
+    color: white;
+    width: fit-content;
+    padding: $btn-padding;
+    border-radius: $btn-radius;
+    transition: $transition;
+    display: block;
+}
+
+%display-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

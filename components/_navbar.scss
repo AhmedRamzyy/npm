@@ -1,11 +1,12 @@
 // desc: 'Contain navbar styles'
-@import "partials/grids";
+@import "partials/extend-classes";
 @import "partials/variables";
 
 .navigation{
     .navbar {
         @extend %display-flex;
-        padding-top: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         .logo {
             width: 100px;
             img {
@@ -20,6 +21,7 @@
                 display: block;
                 height: 40px;
                 width: 40px;
+                padding: 8px 0 0 13px;
                 img {
                     max-width: 100%;
                 }
@@ -32,6 +34,10 @@
                 outline: none;
                 padding-left: 15px;
                 border-radius: 10px;
+                &::placeholder{
+                    font-family: 'Fira Mono', monospace;
+                    font-size: 15px;
+                }
                 &:focus{
                     border: 1px solid $hover-gray;
                 }
