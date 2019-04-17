@@ -27,6 +27,7 @@
 .btn-red{
     @extend %btn;
     background-color: $red;
+    margin: auto;
     &:hover{
         transform: $btn-hvr;
     }

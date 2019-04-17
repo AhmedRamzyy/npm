@@ -45,7 +45,8 @@
     transform: translateY(-10px); }
 
 .btn-red {
-  background-color: #d41d5a; }
+  background-color: #e41818;
+  margin: auto; }
   .btn-red:hover {
     transform: translateY(-10px); }
 
@@ -174,7 +175,6 @@ a {
   .npm-desc .description {
     width: 30%;
     color: white;
-    margin-left: 140px;
     font-family: "Poppins", sans-serif; }
     .npm-desc .description h1 {
       font-size: 35px;
@@ -187,5 +187,38 @@ a {
       margin-top: 0;
       line-height: 1.7;
       margin-bottom: 35px; }
+
+.about-org {
+  background: #051b2df5;
+  min-height: 100vh; }
+  .about-org .collaboration {
+    display: flex;
+    align-items: stretch;
+    padding-top: 160px; }
+    .about-org .collaboration .collab-img {
+      width: 60%; }
+    .about-org .collaboration .collab-desc {
+      width: 40%;
+      margin-left: 70px;
+      color: white; }
+      .about-org .collaboration .collab-desc h2 {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 35px;
+        font-weight: 100;
+        font-family: "Poppins", sans-serif; }
+      .about-org .collaboration .collab-desc ul {
+        list-style: unset; }
+        .about-org .collaboration .collab-desc ul li {
+          line-height: 1.3;
+          font-size: 20px;
+          margin-bottom: 20px; }
+      .about-org .collaboration .collab-desc a.learn-more {
+        color: white;
+        display: block;
+        margin: auto;
+        width: fit-content;
+        font-size: 20px;
+        margin-top: 10px; }
 
 /*# sourceMappingURL=style.css.map */
