@@ -11,7 +11,7 @@
   text-align: center;
   font-family: "Fira Mono", monospace; }
 
-.navigation .navbar, .navigation .navbar .search-bar, .price-plan .price-row, .header .head, .header .head .header-list, .about-org .collaboration, .discover .services-row, .enterprise .enterprise-row, .npm-packages .packages-row, .npm-packages .packages-row .packages, .npm-packages .packages-row .packages .item {
+.navigation .navbar, .navigation .navbar .search-bar, .price-plan .price-row, .header .head, .header .head .header-list, .about-org .collaboration, .discover .services-row, .enterprise .enterprise-row, .npm-packages .packages-row, .npm-packages .packages-row .packages, .npm-packages .packages-row .packages .item, .our-team .team-row, .our-team .team-row .team-card {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -78,7 +78,7 @@
   text-align: center;
   font-family: "Fira Mono", monospace; }
 
-.navigation .navbar, .navigation .navbar .search-bar, .price-plan .price-row, .header .head, .header .head .header-list, .about-org .collaboration, .discover .services-row, .enterprise .enterprise-row, .npm-packages .packages-row, .npm-packages .packages-row .packages, .npm-packages .packages-row .packages .item {
+.navigation .navbar, .navigation .navbar .search-bar, .price-plan .price-row, .header .head, .header .head .header-list, .about-org .collaboration, .discover .services-row, .enterprise .enterprise-row, .npm-packages .packages-row, .npm-packages .packages-row .packages, .npm-packages .packages-row .packages .item, .our-team .team-row, .our-team .team-row .team-card {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -166,7 +166,7 @@
   text-align: center;
   font-family: "Fira Mono", monospace; }
 
-.navigation .navbar, .navigation .navbar .search-bar, .price-plan .price-row, .header .head, .header .head .header-list, .about-org .collaboration, .discover .services-row, .enterprise .enterprise-row, .npm-packages .packages-row, .npm-packages .packages-row .packages, .npm-packages .packages-row .packages .item {
+.navigation .navbar, .navigation .navbar .search-bar, .price-plan .price-row, .header .head, .header .head .header-list, .about-org .collaboration, .discover .services-row, .enterprise .enterprise-row, .npm-packages .packages-row, .npm-packages .packages-row .packages, .npm-packages .packages-row .packages .item, .our-team .team-row, .our-team .team-row .team-card {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -356,7 +356,7 @@
   text-align: center;
   font-family: "Fira Mono", monospace; }
 
-.navigation .navbar, .navigation .navbar .search-bar, .price-plan .price-row, .header .head, .header .head .header-list, .about-org .collaboration, .discover .services-row, .enterprise .enterprise-row, .npm-packages .packages-row, .npm-packages .packages-row .packages, .npm-packages .packages-row .packages .item {
+.navigation .navbar, .navigation .navbar .search-bar, .price-plan .price-row, .header .head, .header .head .header-list, .about-org .collaboration, .discover .services-row, .enterprise .enterprise-row, .npm-packages .packages-row, .npm-packages .packages-row .packages, .npm-packages .packages-row .packages .item, .our-team .team-row, .our-team .team-row .team-card {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -717,5 +717,26 @@ a {
           font-weight: bold; }
           .npm-packages .packages-row .packages .item .item-desc p span {
             color: #d6120e; }
+
+.our-team {
+  padding: 30px 0; }
+  .our-team .team-row .team-card {
+    width: 31%;
+    justify-content: space-around; }
+    .our-team .team-row .team-card .team-pic {
+      width: 80px; }
+      .our-team .team-row .team-card .team-pic img {
+        max-width: 100%; }
+  .our-team .team-row .team-desc {
+    font-family: "Poppins", sans-serif;
+    width: 60%;
+    font-size: 10px;
+    font-weight: 600; }
+    .our-team .team-row .team-desc h3 {
+      margin: 0; }
+    .our-team .team-row .team-desc p {
+      margin: 0; }
+      .our-team .team-row .team-desc p span {
+        color: #d6120e; }
 
 /*# sourceMappingURL=style.css.map */
