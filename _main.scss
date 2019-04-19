@@ -327,6 +327,7 @@ a{text-decoration: none;}
 // our team
 .our-team{
     padding: 30px 0;
+    background-color: #f1f1f1;
     .team-row{
         @extend %display-flex;
         .team-card{
