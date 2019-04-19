@@ -11,7 +11,7 @@
   text-align: center;
   font-family: "Fira Mono", monospace; }
 
-.navigation .navbar, .navigation .navbar .search-bar, .price-plan .price-row, .header .head, .header .head .header-list, .about-org .collaboration, .discover .services-row, .enterprise .enterprise-row, .npm-packages .packages-row, .npm-packages .packages-row .packages, .npm-packages .packages-row .packages .item, .our-team .team-row, .our-team .team-row .team-card {
+footer .footer-row, .navigation .navbar, .navigation .navbar .search-bar, .price-plan .price-row, .header .head, .header .head .header-list, .about-org .collaboration, .discover .services-row, .enterprise .enterprise-row, .npm-packages .packages-row, .npm-packages .packages-row .packages, .npm-packages .packages-row .packages .item, .our-team .team-row, .our-team .team-row .team-card {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -82,7 +82,7 @@
   text-align: center;
   font-family: "Fira Mono", monospace; }
 
-.navigation .navbar, .navigation .navbar .search-bar, .price-plan .price-row, .header .head, .header .head .header-list, .about-org .collaboration, .discover .services-row, .enterprise .enterprise-row, .npm-packages .packages-row, .npm-packages .packages-row .packages, .npm-packages .packages-row .packages .item, .our-team .team-row, .our-team .team-row .team-card {
+footer .footer-row, .navigation .navbar, .navigation .navbar .search-bar, .price-plan .price-row, .header .head, .header .head .header-list, .about-org .collaboration, .discover .services-row, .enterprise .enterprise-row, .npm-packages .packages-row, .npm-packages .packages-row .packages, .npm-packages .packages-row .packages .item, .our-team .team-row, .our-team .team-row .team-card {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -174,7 +174,97 @@
   text-align: center;
   font-family: "Fira Mono", monospace; }
 
-.navigation .navbar, .navigation .navbar .search-bar, .price-plan .price-row, .header .head, .header .head .header-list, .about-org .collaboration, .discover .services-row, .enterprise .enterprise-row, .npm-packages .packages-row, .npm-packages .packages-row .packages, .npm-packages .packages-row .packages .item, .our-team .team-row, .our-team .team-row .team-card {
+footer .footer-row, .navigation .navbar, .navigation .navbar .search-bar, .price-plan .price-row, .header .head, .header .head .header-list, .about-org .collaboration, .discover .services-row, .enterprise .enterprise-row, .npm-packages .packages-row, .npm-packages .packages-row .packages, .npm-packages .packages-row .packages .item, .our-team .team-row, .our-team .team-row .team-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between; }
+
+.npm-desc, .what-npm {
+  background-size: cover;
+  background-position: center; }
+
+.price-plan .price-row, .about-org .collaboration, .what-npm, .discover .services-row, .enterprise .enterprise-row {
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: space-around; }
+
+.price-plan header, .price-plan .foot, .discover header, .discover .services-row .service-box, .npm-packages .packages-header h2 {
+  text-align: center; }
+
+.price-plan header h2, .price-plan .foot h2, .discover header h2, .npm-packages .packages-header h2 {
+  margin-bottom: 0;
+  font-weight: 100;
+  font-family: sans-serif;
+  font-size: 27px; }
+
+.price-plan header p, .price-plan .foot p, .discover header p {
+  color: #545151;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px; }
+
+.border-blue {
+  border-top: 15px solid #085dad; }
+
+.border-red {
+  border-top: 15px solid #d6120e; }
+
+.border-yellow {
+  border-top: 15px solid #ee8a0f; }
+
+.clr-red {
+  color: #d6120e; }
+
+.clr-blue {
+  color: #085dad; }
+
+.clr-yellow {
+  color: #ee8a0f; }
+
+.border-bottom {
+  border-bottom: 0.5px solid #e5e3e3; }
+
+.border-left {
+  border-left: 0.5px solid #e5e3e3; }
+  @media (max-width: 767px) {
+    .border-left {
+      border-top: 1px solid #e5e3e3;
+      border-left: 0; } }
+
+footer {
+  padding: 50px 0; }
+  footer .footer-row .npm-links {
+    width: 33.33333%;
+    font-family: "Poppins", sans-serif; }
+    footer .footer-row .npm-links h4 {
+      font-size: 16px; }
+    footer .footer-row .npm-links ul {
+      padding: 0; }
+      footer .footer-row .npm-links ul li {
+        margin-bottom: 10px;
+        width: fit-content;
+        font-size: 12px; }
+        footer .footer-row .npm-links ul li a {
+          color: #000;
+          transition: all 0.3s ease-in-out; }
+          footer .footer-row .npm-links ul li a:hover {
+            color: #a09e9e; }
+
+.btn-gray, .btn-yellow, .btn-blue, .btn-red {
+  text-decoration: none;
+  font-size: 16px;
+  color: #d6d6d6;
+  width: fit-content;
+  padding: 3px 65px;
+  border-radius: 25px;
+  transition: all 0.3s ease-in-out;
+  display: block;
+  text-align: center;
+  font-family: "Fira Mono", monospace; }
+
+footer .footer-row, .navigation .navbar, .navigation .navbar .search-bar, .price-plan .price-row, .header .head, .header .head .header-list, .about-org .collaboration, .discover .services-row, .enterprise .enterprise-row, .npm-packages .packages-row, .npm-packages .packages-row .packages, .npm-packages .packages-row .packages .item, .our-team .team-row, .our-team .team-row .team-card {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -368,7 +458,7 @@
   text-align: center;
   font-family: "Fira Mono", monospace; }
 
-.navigation .navbar, .navigation .navbar .search-bar, .price-plan .price-row, .header .head, .header .head .header-list, .about-org .collaboration, .discover .services-row, .enterprise .enterprise-row, .npm-packages .packages-row, .npm-packages .packages-row .packages, .npm-packages .packages-row .packages .item, .our-team .team-row, .our-team .team-row .team-card {
+footer .footer-row, .navigation .navbar, .navigation .navbar .search-bar, .price-plan .price-row, .header .head, .header .head .header-list, .about-org .collaboration, .discover .services-row, .enterprise .enterprise-row, .npm-packages .packages-row, .npm-packages .packages-row .packages, .npm-packages .packages-row .packages .item, .our-team .team-row, .our-team .team-row .team-card {
   display: flex;
   flex-wrap: wrap;
   align-items: center;

@@ -1,0 +1,32 @@
+// desc: 'Contain footer styles'
+@import "partials/extend-classes";
+@import "partials/variables";
+
+footer{
+    padding: 50px 0;
+    .footer-row{
+        @extend %display-flex;
+        .npm-links{
+            width: 33.33333%;
+            font-family: $poppins;
+            h4{
+                font-size: 16px;
+            }
+            ul{
+                padding: 0;
+                li{
+                    margin-bottom: 10px;
+                    width: fit-content;
+                    font-size: 12px;
+                    a{
+                    color: $black;
+                    transition: $transition;
+                    &:hover{
+                        color: $hover-gray;
+                    }
+                }
+                }
+            }
+        }
+    }
+}
