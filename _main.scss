@@ -285,6 +285,9 @@ a{text-decoration: none;}
             @extend %display-flex;
             width: 31%;
             padding-left: 15px;
+            @include when-xs{
+                width: 100%;
+            }
             .item{
                 @extend %display-flex;
                 width: 100%;
@@ -329,6 +332,10 @@ a{text-decoration: none;}
             @extend %display-flex;
             width: 31%;
             justify-content: space-around;
+            @include when-xs{
+                width: 100%;
+                margin-bottom: 25px;
+            }
             .team-pic{
                 width: 80px;
                 img{

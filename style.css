@@ -65,6 +65,10 @@
 
 .border-left {
   border-left: 0.5px solid #e5e3e3; }
+  @media (max-width: 767px) {
+    .border-left {
+      border-top: 1px solid #e5e3e3;
+      border-left: 0; } }
 
 .btn-gray, .btn-yellow, .btn-blue, .btn-red {
   text-decoration: none;
@@ -132,6 +136,10 @@
 
 .border-left {
   border-left: 0.5px solid #e5e3e3; }
+  @media (max-width: 767px) {
+    .border-left {
+      border-top: 1px solid #e5e3e3;
+      border-left: 0; } }
 
 .btn-gray {
   background-color: #545151; }
@@ -220,6 +228,10 @@
 
 .border-left {
   border-left: 0.5px solid #e5e3e3; }
+  @media (max-width: 767px) {
+    .border-left {
+      border-top: 1px solid #e5e3e3;
+      border-left: 0; } }
 
 .navigation .navbar {
   flex-wrap: unset !important;
@@ -410,6 +422,10 @@
 
 .border-left {
   border-left: 0.5px solid #e5e3e3; }
+  @media (max-width: 767px) {
+    .border-left {
+      border-top: 1px solid #e5e3e3;
+      border-left: 0; } }
 
 .header .head {
   font-family: "Poppins", sans-serif; }
@@ -695,6 +711,9 @@ a {
   .npm-packages .packages-row .packages {
     width: 31%;
     padding-left: 15px; }
+    @media (max-width: 767px) {
+      .npm-packages .packages-row .packages {
+        width: 100%; } }
     .npm-packages .packages-row .packages .item {
       width: 100%; }
       .npm-packages .packages-row .packages .item:not(:last-of-type) {
@@ -723,6 +742,10 @@ a {
   .our-team .team-row .team-card {
     width: 31%;
     justify-content: space-around; }
+    @media (max-width: 767px) {
+      .our-team .team-row .team-card {
+        width: 100%;
+        margin-bottom: 25px; } }
     .our-team .team-row .team-card .team-pic {
       width: 80px; }
       .our-team .team-row .team-card .team-pic img {
