@@ -11,7 +11,7 @@
       @extend %display-flex;
       font-family: $poppins;
       p {
-         width: 30%;
+         width: 32%;
          color: $black;
          margin-bottom: 0;
          @include when-xs{  //extra small screen
@@ -26,7 +26,7 @@
          }
          a {
             color: $black;
-            font-size: $link-font;
+            font-size: $link-font + 5;
             transition: $transition;
             &:hover {
                color: $hover-gray;
@@ -41,9 +41,16 @@
             cursor: pointer;
             background: none;
             font-size: $heading-f-size - 5;
-            @include when-xs{       //wxtra small screen
+            @include when-xs{       //extra small screen
                display: block;
                margin-top: 16px;
+            }
+            @include when-sm{       //small screen
+               display: block;
+               margin-top: 16px;
+            }
+            @include when-md{ //medium screen
+               display: none;
             }
          }
       .header-list {
@@ -55,15 +62,33 @@
             padding: 0;
             display: none;
          }
+         @include when-sm{       //small screen
+            display: none;
+            width: 100%;
+            padding: 0;
+         }
+         @include when-md{       //medium screen
+            display: flex;
+            width: 55%;
+         }
          li {
             display: inline-block;
             @include when-xs{ //extra small screen
                width: 100%;
                margin-bottom: 15px;
             }
+            @include when-sm{ //small screen
+               width: 100%;
+               margin-bottom: 15px;
+            }
+            @include when-md{ //medium screen
+               display: inline-block;
+               width: fit-content;
+               margin-bottom: 0;
+               font-size: $link-font + 5;
+            }
             a {
                color: $black;
-               font-size: $link-font;
                transition: $transition;
                &:hover {
                   color: $hover-gray;
