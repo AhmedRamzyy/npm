@@ -4,16 +4,16 @@
 
 
 %btn{
-    text-decoration: none;
-    font-size: $btn-font;
+    display: block;
     color: $btn-color;
     width: fit-content;
-    padding: $btn-padding;
-    border-radius: $btn-radius;
-    transition: $transition;
-    display: block;
     text-align: center;
+    font-size: $btn-font;
+    text-decoration: none;
+    padding: $btn-padding;
+    transition: $transition;
     font-family: $fira-mono;
+    border-radius: $btn-radius;
 }
 
 %display-flex{
@@ -66,8 +66,7 @@
 .border-bottom{border-bottom: .5px solid $border-color;}
 .border-left{
     border-left: .5px solid $border-color;
-    @include when-xs{
-        border-top: 1px solid $border-color;
-        border-left: 0;
+    @include when-xs{ //extra small screen
+        border: 0;
     }
 }

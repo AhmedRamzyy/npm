@@ -29,8 +29,8 @@ a{text-decoration: none;}
 
 // npm description
 .npm-desc{
-    @extend %background-cover;
     background: url(images/desc.SVG);
+    @extend %background-cover;
     padding: 90px 0;
     @include when-xs{
         padding: 40px 0 20px ;
