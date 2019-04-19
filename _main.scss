@@ -268,3 +268,55 @@ a{text-decoration: none;}
     }
 }
 
+// npm packages
+.npm-packages{
+    padding: 30px 0;
+    .packages-header{
+        margin-bottom: 30px;
+        h2{
+            @extend %txt-center;
+            @extend %h2;
+            margin-top: 0;
+        }
+    }
+    .packages-row{
+        @extend %display-flex;
+        .packages{
+            @extend %display-flex;
+            width: 31%;
+            padding-left: 15px;
+            .item{
+                @extend %display-flex;
+                width: 100%;
+                &:not(:last-of-type){
+                    margin-bottom: 20px;
+                }
+                .item-icon{
+                    width: 15%;
+                    height: 65px;
+                    img{
+                        max-width: 100%;
+                        max-height: 100%;
+                    }
+                }
+                .item-desc{
+                    width: 75%;
+                    font-family: $poppins;
+                    font-size: $heading-f-size - 25;
+                    h3{
+                        margin: 0;
+                        color: $red;
+                    }
+                    p{
+                        margin: 0;
+                        font-weight: bold;
+                        span{
+                            color: $red;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

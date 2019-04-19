@@ -11,7 +11,7 @@
   text-align: center;
   font-family: "Fira Mono", monospace; }
 
-.navigation .navbar, .navigation .navbar .search-bar, .price-plan .price-row, .header .head, .header .head .header-list, .about-org .collaboration, .discover .services-row, .enterprise .enterprise-row {
+.navigation .navbar, .navigation .navbar .search-bar, .price-plan .price-row, .header .head, .header .head .header-list, .about-org .collaboration, .discover .services-row, .enterprise .enterprise-row, .npm-packages .packages-row, .npm-packages .packages-row .packages, .npm-packages .packages-row .packages .item {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -28,10 +28,10 @@
   padding-bottom: 50px;
   justify-content: space-around; }
 
-.price-plan header, .price-plan .foot, .discover header, .discover .services-row .service-box {
+.price-plan header, .price-plan .foot, .discover header, .discover .services-row .service-box, .npm-packages .packages-header h2 {
   text-align: center; }
 
-.price-plan header h2, .price-plan .foot h2, .discover header h2 {
+.price-plan header h2, .price-plan .foot h2, .discover header h2, .npm-packages .packages-header h2 {
   margin-bottom: 0;
   font-weight: 100;
   font-family: sans-serif;
@@ -59,6 +59,12 @@
 
 .clr-yellow {
   color: #ee8a0f; }
+
+.border-bottom {
+  border-bottom: 0.5px solid #e5e3e3; }
+
+.border-left {
+  border-left: 0.5px solid #e5e3e3; }
 
 .btn-gray, .btn-yellow, .btn-blue, .btn-red {
   text-decoration: none;
@@ -72,7 +78,7 @@
   text-align: center;
   font-family: "Fira Mono", monospace; }
 
-.navigation .navbar, .navigation .navbar .search-bar, .price-plan .price-row, .header .head, .header .head .header-list, .about-org .collaboration, .discover .services-row, .enterprise .enterprise-row {
+.navigation .navbar, .navigation .navbar .search-bar, .price-plan .price-row, .header .head, .header .head .header-list, .about-org .collaboration, .discover .services-row, .enterprise .enterprise-row, .npm-packages .packages-row, .npm-packages .packages-row .packages, .npm-packages .packages-row .packages .item {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -89,10 +95,10 @@
   padding-bottom: 50px;
   justify-content: space-around; }
 
-.price-plan header, .price-plan .foot, .discover header, .discover .services-row .service-box {
+.price-plan header, .price-plan .foot, .discover header, .discover .services-row .service-box, .npm-packages .packages-header h2 {
   text-align: center; }
 
-.price-plan header h2, .price-plan .foot h2, .discover header h2 {
+.price-plan header h2, .price-plan .foot h2, .discover header h2, .npm-packages .packages-header h2 {
   margin-bottom: 0;
   font-weight: 100;
   font-family: sans-serif;
@@ -120,6 +126,12 @@
 
 .clr-yellow {
   color: #ee8a0f; }
+
+.border-bottom {
+  border-bottom: 0.5px solid #e5e3e3; }
+
+.border-left {
+  border-left: 0.5px solid #e5e3e3; }
 
 .btn-gray {
   background-color: #545151; }
@@ -154,7 +166,7 @@
   text-align: center;
   font-family: "Fira Mono", monospace; }
 
-.navigation .navbar, .navigation .navbar .search-bar, .price-plan .price-row, .header .head, .header .head .header-list, .about-org .collaboration, .discover .services-row, .enterprise .enterprise-row {
+.navigation .navbar, .navigation .navbar .search-bar, .price-plan .price-row, .header .head, .header .head .header-list, .about-org .collaboration, .discover .services-row, .enterprise .enterprise-row, .npm-packages .packages-row, .npm-packages .packages-row .packages, .npm-packages .packages-row .packages .item {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -171,10 +183,10 @@
   padding-bottom: 50px;
   justify-content: space-around; }
 
-.price-plan header, .price-plan .foot, .discover header, .discover .services-row .service-box {
+.price-plan header, .price-plan .foot, .discover header, .discover .services-row .service-box, .npm-packages .packages-header h2 {
   text-align: center; }
 
-.price-plan header h2, .price-plan .foot h2, .discover header h2 {
+.price-plan header h2, .price-plan .foot h2, .discover header h2, .npm-packages .packages-header h2 {
   margin-bottom: 0;
   font-weight: 100;
   font-family: sans-serif;
@@ -202,6 +214,12 @@
 
 .clr-yellow {
   color: #ee8a0f; }
+
+.border-bottom {
+  border-bottom: 0.5px solid #e5e3e3; }
+
+.border-left {
+  border-left: 0.5px solid #e5e3e3; }
 
 .navigation .navbar {
   flex-wrap: unset !important;
@@ -338,7 +356,7 @@
   text-align: center;
   font-family: "Fira Mono", monospace; }
 
-.navigation .navbar, .navigation .navbar .search-bar, .price-plan .price-row, .header .head, .header .head .header-list, .about-org .collaboration, .discover .services-row, .enterprise .enterprise-row {
+.navigation .navbar, .navigation .navbar .search-bar, .price-plan .price-row, .header .head, .header .head .header-list, .about-org .collaboration, .discover .services-row, .enterprise .enterprise-row, .npm-packages .packages-row, .npm-packages .packages-row .packages, .npm-packages .packages-row .packages .item {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -355,10 +373,10 @@
   padding-bottom: 50px;
   justify-content: space-around; }
 
-.price-plan header, .price-plan .foot, .discover header, .discover .services-row .service-box {
+.price-plan header, .price-plan .foot, .discover header, .discover .services-row .service-box, .npm-packages .packages-header h2 {
   text-align: center; }
 
-.price-plan header h2, .price-plan .foot h2, .discover header h2 {
+.price-plan header h2, .price-plan .foot h2, .discover header h2, .npm-packages .packages-header h2 {
   margin-bottom: 0;
   font-weight: 100;
   font-family: sans-serif;
@@ -387,85 +405,89 @@
 .clr-yellow {
   color: #ee8a0f; }
 
-.header {
+.border-bottom {
   border-bottom: 0.5px solid #e5e3e3; }
-  .header .head {
-    font-family: "Poppins", sans-serif; }
-    .header .head p {
-      width: 32%;
+
+.border-left {
+  border-left: 0.5px solid #e5e3e3; }
+
+.header .head {
+  font-family: "Poppins", sans-serif; }
+  .header .head p {
+    width: 32%;
+    color: #000;
+    margin-bottom: 0; }
+    @media (max-width: 767px) {
+      .header .head p {
+        width: 65%; } }
+    .header .head p i {
+      margin-right: 5px;
+      transition: all 0.3s ease-in-out; }
+      .header .head p i:hover {
+        color: #a09e9e; }
+    .header .head p a {
       color: #000;
-      margin-bottom: 0; }
+      font-size: 20px;
+      transition: all 0.3s ease-in-out; }
+      .header .head p a:hover {
+        color: #a09e9e; }
+  .header .head .toggle {
+    display: none;
+    border: none;
+    color: #000;
+    outline: none;
+    cursor: pointer;
+    background: none;
+    font-size: 30px; }
+    @media (max-width: 767px) {
+      .header .head .toggle {
+        display: block;
+        margin-top: 16px; } }
+    @media (min-width: 768px) {
+      .header .head .toggle {
+        display: block;
+        margin-top: 16px; } }
+    @media (min-width: 992px) {
+      .header .head .toggle {
+        display: none; } }
+  .header .head .header-list {
+    width: 45%;
+    margin-bottom: 0; }
+    @media (max-width: 767px) {
+      .header .head .header-list {
+        width: 100%;
+        padding: 0;
+        display: none; } }
+    @media (min-width: 768px) {
+      .header .head .header-list {
+        display: none;
+        width: 100%;
+        padding: 0; } }
+    @media (min-width: 992px) {
+      .header .head .header-list {
+        display: flex;
+        width: 55%; } }
+    .header .head .header-list li {
+      display: inline-block; }
       @media (max-width: 767px) {
-        .header .head p {
-          width: 65%; } }
-      .header .head p i {
-        margin-right: 5px;
-        transition: all 0.3s ease-in-out; }
-        .header .head p i:hover {
-          color: #a09e9e; }
-      .header .head p a {
+        .header .head .header-list li {
+          width: 100%;
+          margin-bottom: 15px; } }
+      @media (min-width: 768px) {
+        .header .head .header-list li {
+          width: 100%;
+          margin-bottom: 15px; } }
+      @media (min-width: 992px) {
+        .header .head .header-list li {
+          display: inline-block;
+          width: fit-content;
+          margin-bottom: 0;
+          font-size: 20px; } }
+      .header .head .header-list li a {
         color: #000;
-        font-size: 20px;
         transition: all 0.3s ease-in-out; }
-        .header .head p a:hover {
+        .header .head .header-list li a:hover {
           color: #a09e9e; }
-    .header .head .toggle {
-      display: none;
-      border: none;
-      color: #000;
-      outline: none;
-      cursor: pointer;
-      background: none;
-      font-size: 30px; }
-      @media (max-width: 767px) {
-        .header .head .toggle {
-          display: block;
-          margin-top: 16px; } }
-      @media (min-width: 768px) {
-        .header .head .toggle {
-          display: block;
-          margin-top: 16px; } }
-      @media (min-width: 992px) {
-        .header .head .toggle {
-          display: none; } }
-    .header .head .header-list {
-      width: 45%;
-      margin-bottom: 0; }
-      @media (max-width: 767px) {
-        .header .head .header-list {
-          width: 100%;
-          padding: 0;
-          display: none; } }
-      @media (min-width: 768px) {
-        .header .head .header-list {
-          display: none;
-          width: 100%;
-          padding: 0; } }
-      @media (min-width: 992px) {
-        .header .head .header-list {
-          display: flex;
-          width: 55%; } }
-      .header .head .header-list li {
-        display: inline-block; }
-        @media (max-width: 767px) {
-          .header .head .header-list li {
-            width: 100%;
-            margin-bottom: 15px; } }
-        @media (min-width: 768px) {
-          .header .head .header-list li {
-            width: 100%;
-            margin-bottom: 15px; } }
-        @media (min-width: 992px) {
-          .header .head .header-list li {
-            display: inline-block;
-            width: fit-content;
-            margin-bottom: 0;
-            font-size: 20px; } }
-        .header .head .header-list li a {
-          color: #000;
-          transition: all 0.3s ease-in-out; }
-          .header .head .header-list li a:hover {
-            color: #a09e9e; }
 
 .container {
   width: 80%;
@@ -663,5 +685,37 @@ a {
           width: 266px;
           font-size: 14px;
           padding: 7px 5px; } }
+
+.npm-packages {
+  padding: 30px 0; }
+  .npm-packages .packages-header {
+    margin-bottom: 30px; }
+    .npm-packages .packages-header h2 {
+      margin-top: 0; }
+  .npm-packages .packages-row .packages {
+    width: 31%;
+    padding-left: 15px; }
+    .npm-packages .packages-row .packages .item {
+      width: 100%; }
+      .npm-packages .packages-row .packages .item:not(:last-of-type) {
+        margin-bottom: 20px; }
+      .npm-packages .packages-row .packages .item .item-icon {
+        width: 15%;
+        height: 65px; }
+        .npm-packages .packages-row .packages .item .item-icon img {
+          max-width: 100%;
+          max-height: 100%; }
+      .npm-packages .packages-row .packages .item .item-desc {
+        width: 75%;
+        font-family: "Poppins", sans-serif;
+        font-size: 10px; }
+        .npm-packages .packages-row .packages .item .item-desc h3 {
+          margin: 0;
+          color: #d6120e; }
+        .npm-packages .packages-row .packages .item .item-desc p {
+          margin: 0;
+          font-weight: bold; }
+          .npm-packages .packages-row .packages .item .item-desc p span {
+            color: #d6120e; }
 
 /*# sourceMappingURL=style.css.map */

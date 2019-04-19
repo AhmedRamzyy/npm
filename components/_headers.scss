@@ -6,7 +6,6 @@
 
 
 .header {
-   border-bottom: .5px solid $border-color;
    .head {
       @extend %display-flex;
       font-family: $poppins;
