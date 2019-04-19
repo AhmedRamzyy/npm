@@ -19,11 +19,18 @@
     .price-row {
         @extend %display-flex;
         @extend %row-container;
+        @include when-xs{ //extra small screen
+            padding-top: 25px;
+        }
         .plan {
             width: 31%;
             background: $white;
             border-radius: $plan-b-radius;
             padding: 20px;
+            margin-bottom: 20px;
+            @include when-xs{ //extra small screen
+                width: 100%;
+            }
             .heading {
                 font-size: $heading-f-size;
                 text-align: right;
@@ -63,6 +70,11 @@
                 width: 195px;
                 margin-top: 30px;
                 padding: 7px 35px;
+                @include when-xs{//extra small screen
+                    width: fit-content;
+                    font-size:15px;
+                    padding: 7px 17px;
+                }
             }
             .btn-yellow{
                 margin-top: 55px;

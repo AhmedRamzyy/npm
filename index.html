@@ -42,7 +42,7 @@
                <span><img src="images/search-icon.png" alt="search icon"></span>
                <input type="search" placeholder="Search Packages">
             </div>
-            <a href="#">Login or sign up</a>
+            <a href="#" class="login">Login or sign up</a>
          </div>
       </div>
    </section>
@@ -220,4 +220,12 @@
       </div>
    </section>
 
+   <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+   <script>
+         $(function (){
+            $('button').on('click', function (){
+               $('.header-list').slideToggle();
+            })
+         })
+         </script>
 </html>

@@ -14,8 +14,11 @@
          width: 30%;
          color: $black;
          margin-bottom: 0;
+         @include when-xs{  //extra small screen
+            width: 65%;
+         }
          i {
-            margin-right: 20px;
+            margin-right: 5px;
             transition: $transition;
             &:hover{
                color: $hover-gray;
@@ -31,22 +34,33 @@
             }
          }
          .toggle{
+            display: none;
             border: none;
-            color: $white;
+            color: $black;
             outline: none;
             cursor: pointer;
             background: none;
             font-size: $heading-f-size - 5;
-            @include when-xs{
+            @include when-xs{       //wxtra small screen
                display: block;
+               margin-top: 16px;
             }
          }
       .header-list {
          @extend %display-flex;
          width: 45%;
          margin-bottom: 0;
+         @include when-xs{ //extra small screen
+            width: 100%;
+            padding: 0;
+            display: none;
+         }
          li {
             display: inline-block;
+            @include when-xs{ //extra small screen
+               width: 100%;
+               margin-bottom: 15px;
+            }
             a {
                color: $black;
                font-size: $link-font;

@@ -5,16 +5,21 @@
 .navigation{
     .navbar {
         @extend %display-flex;
+        flex-wrap: unset !important;
         padding-top: 20px;
         padding-bottom: 20px;
         .logo {
             width: 100px;
+            @include when-xs{ //extra small screen
+                width: 70px;
+            }
             img {
                 max-width: 100%;
             }
         }
         .search-bar {
             @extend %display-flex;
+            flex-wrap: unset !important;
             width: 60%;
             height: 50px;
             span {
@@ -36,20 +41,25 @@
                 border-radius: 10px;
                 &::placeholder{
                     font-family: $fira-mono;
-                    font-size: $heading-f-size - 20;
+                    font-size: $heading-f-size - 22;
                 }
                 &:focus{
                     border: 1px solid $hover-gray;
                 }
             }
         }
-        a {
+        .login {
             display: block;
             color: $black;
             font-family: $poppins;
             font-size: $link-font;
             &:hover{
                 color: $hover-gray;
+            }
+            @include when-xs{ //extra small screen
+                width: 20%;
+                font-size: 12px;
+                font-weight: bold;
             }
         }
     }

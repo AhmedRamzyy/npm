@@ -2,6 +2,14 @@
 @import "partials/colors";
 @import "partials/extend-classes";
 
+.btn-gray{
+    @extend %btn;
+    background-color: $gray;
+    &:hover{
+        transform: $btn-hvr;
+    }
+}
+
 .btn-yellow{
     @extend %btn ;
     background-color: $yellow ;
@@ -17,13 +25,7 @@
         transform: $btn-hvr;
     }
 }
-.btn-gray{
-    @extend %btn;
-    background-color: $gray;
-    &:hover{
-        transform: $btn-hvr;
-    }
-}
+
 .btn-red{
     @extend %btn;
     background-color: $red;
