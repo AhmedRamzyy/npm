@@ -1,4 +1,5 @@
 @import "partials/colors";
+@import "partials/variables";
 
 %btn{
     text-decoration: none;
@@ -9,12 +10,15 @@
     border-radius: $btn-radius;
     transition: $transition;
     display: block;
+    text-align: center;
+    font-family: $fira-mono;
 }
 
 %display-flex{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: space-between;
 }
 
 %background-cover{
@@ -34,3 +38,25 @@
 %txt-center{
     text-align: center;
 }
+
+%h2{
+    margin-bottom: 0;
+    font-weight: 100;
+    font-family: $sans ;
+    font-size: $heading-f-size - 8;
+}
+
+%heading-p{
+    color: $gray;
+    font-family: $poppins;
+    font-size: $heading-f-size - 20;
+}
+
+// price plan
+.border-blue{ border-top: 15px solid $blue; }
+.border-red{ border-top: 15px solid $red; }
+.border-yellow{ border-top: 15px solid $yellow; }
+
+.clr-red{ color: $red;}
+.clr-blue{ color: $blue;}
+.clr-yellow{ color: $yellow;}

@@ -2,11 +2,12 @@
 @import "partials/extend-classes";
 @import "partials/colors";
 @import "partials/variables";
+@import "partials/mixins";
 
 
-.heading {
+.header {
    border-bottom: .5px solid $border-color;
-   .header {
+   .head {
       @extend %display-flex;
       font-family: $poppins;
       p {
@@ -26,9 +27,20 @@
             transition: $transition;
             &:hover {
                color: $hover-gray;
+               }
             }
          }
-      }
+         .toggle{
+            border: none;
+            color: $white;
+            outline: none;
+            cursor: pointer;
+            background: none;
+            font-size: $heading-f-size - 5;
+            @include when-xs{
+               display: block;
+            }
+         }
       .header-list {
          @extend %display-flex;
          width: 45%;

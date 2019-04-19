@@ -2,8 +2,8 @@
 
 // button
 $btn-radius: 25px;
-$btn-font: 20px;
-$btn-padding: 5px 80px;
+$btn-font: 16px;
+$btn-padding: 3px 65px;
 $btn-hvr: translateY(-10px);
 $transition: all .3s ease-in-out;
 
@@ -17,3 +17,23 @@ $sans: sans-serif;
 $heading-f-size: 35px;
 
 
+
+// price plan
+
+$plan-b-radius: 10px;
+
+// media query
+$screen-xs-max: 767px;
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+
+
+
+
+
+
+// @media(max-width:767px){}
+// @media(min-width:768px){}
+// @media(min-width:992px){}
+// @media(min-width:1200px){}

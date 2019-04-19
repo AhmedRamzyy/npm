@@ -1,1 +1,72 @@
 // desc: 'Contain page sizes and layouts'
+// price plan
+@import "partials/colors";
+@import "partials/variables";
+
+.price-plan {
+    padding: 50px 0;
+    background-color: #dbdbdb;
+    header,.foot {
+        @extend %txt-center;
+        h2 {
+            @extend %h2;
+            margin-top: 0;
+        }
+        p {
+            @extend %heading-p;
+        }
+    }
+    .price-row {
+        @extend %display-flex;
+        @extend %row-container;
+        .plan {
+            width: 31%;
+            background: $white;
+            border-radius: $plan-b-radius;
+            padding: 20px;
+            .heading {
+                font-size: $heading-f-size;
+                text-align: right;
+                margin-top: 20px;
+                margin-bottom: 75px;
+                font-family: $poppins;
+                p{
+                    margin: 0;
+                    height: 22px;
+                    span{
+                        font-size: 15px;
+                        transform: translateY(-5px);
+                        }
+                }
+            }
+            span{
+                display:  inline-block;
+                font-size: 12px;
+            }
+            .plan-head {
+                font-size: 20px;
+                font-family: $fira-mono;
+                p {
+                    margin: 0;
+                }
+            }
+            .plan-desc {
+                padding-left: 0;
+                font-family: $fira-mono;
+                font-size: 15px;
+                li {
+                    margin: 15px 0px;
+                }
+            }
+            a{
+                margin: auto;
+                width: 195px;
+                margin-top: 30px;
+                padding: 7px 35px;
+            }
+            .btn-yellow{
+                margin-top: 55px;
+            }
+        }
+    }
+}
