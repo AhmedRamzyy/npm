@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Mono|Poppins');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono');
 @import "partials/variables";
 @import "partials/mixins";
 @import "partials/colors";
@@ -11,31 +12,35 @@
 @import "components/priceplan";
 @import "components/headers";
 
-.container{
-    width: 80%;
-    margin: auto;
+.container{width: 80%;margin: auto;}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+*, *:before, *:after {
+box-sizing: border-box;
 }
-*{
-    box-sizing: border-box;
-}
-body{
-    padding: 0;
-    margin: 0;
-}
-ul,ol{
-    list-style: none;
-}
+body{padding: 0;margin: 0;}
+
+ul,ol{list-style: none;}
+
 a{text-decoration: none;}
 //////////////////////////////////////////////////////////////////////
 
 // npm description
 .npm-desc{
     background: url(images/desc.SVG);
-    @extend %background-cover;
+    background-size: cover;
     padding: 90px 0;
     @include when-xs{
         padding: 40px 0 20px ;
-        min-height: 60vh;
+        height: 55vh;
+    }
+    @include when-sm{
+        padding: 110px 0 20px ;
+        height: 53vh;
+    }
+    @include when-md{
+        padding: 90px 0;
+        height: 80vh;
     }
     .description{
         width: 30%;
@@ -44,11 +49,23 @@ a{text-decoration: none;}
         @include when-xs{ //extra small screen
             width: 100%;
         }
+        @include when-sm{ //extra small screen
+            width: 45%;
+        }
         h1{
             font-size: $heading-f-size;
             margin-bottom: 15px;
             font-weight: 100;
             line-height: 1.2;
+            @include when-xs {
+                font-size: $heading-f-size - 10;
+            }
+            @include when-sm {
+                font-size: $heading-f-size - 10;
+            }
+            @include when-lg {
+                font-size: $heading-f-size;
+            }
         }
         p{
             margin-top: 0;
@@ -57,7 +74,7 @@ a{text-decoration: none;}
             color: $para-color;
             margin-bottom: 35px;
             @include when-xs{ //extra small screen
-                color: $black;
+                color: $white;
                 font-weight: bold;
             }
         }
@@ -79,6 +96,12 @@ a{text-decoration: none;}
             @include when-xs{ //extra small screen
                 width: 100%;
             }
+            @include when-sm{ //small screen
+                width: 40%;
+            }
+            @include when-md{ //small screen
+                width: 60%;
+            }
                 }
         .collab-desc{
             width: 40%;
@@ -89,6 +112,12 @@ a{text-decoration: none;}
                 margin-left: 0;
                 margin-top: 25px;
             }
+            @include when-sm{ //small screen
+                width: 50%;
+            }
+            @include when-md{ //small screen
+                width: 40%;
+            }
             h2{
                 margin-top: 0;
                 font-weight: 100;
@@ -96,11 +125,18 @@ a{text-decoration: none;}
                 font-family: $poppins;
                 font-size: $heading-f-size;
                 @include when-xs{ //extra small screen
-                    font-size: $heading-f-size - 7;
+                    font-size: $heading-f-size - 13;
+                }
+                @include when-sm{  //small screen
+                    font-size: $heading-f-size - 15;
+                }
+                @include when-md{  //medium screen
+                    font-size: $heading-f-size ;
                 }
             }
             ul{
                 list-style: unset;
+                padding-left: 20px;
                 li{
                     line-height: 1.3;
                     margin-bottom: 20px;
