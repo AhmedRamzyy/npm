@@ -3,8 +3,6 @@
 @import "partials/variables";
 @import "partials/mixins";
 @import "partials/colors";
-@import "partials/fonts";
-@import "partials/grids";
 @import "partials/extend-classes";
 @import "components/button";
 @import "components/footer";
@@ -30,42 +28,15 @@ a{text-decoration: none;}
     background: url(images/desc.SVG);
     background-size: cover;
     padding: 90px 0;
-    @include when-xs{
-        padding: 40px 0 20px ;
-        height: 55vh;
-    }
-    @include when-sm{
-        padding: 110px 0 20px ;
-        height: 53vh;
-    }
-    @include when-md{
-        padding: 90px 0;
-        height: 80vh;
-    }
     .description{
         width: 30%;
         color: $white;
         font-family: $poppins;
-        @include when-xs{ //extra small screen
-            width: 100%;
-        }
-        @include when-sm{ //extra small screen
-            width: 45%;
-        }
         h1{
             font-size: $heading-f-size;
             margin-bottom: 15px;
             font-weight: 100;
             line-height: 1.2;
-            @include when-xs {
-                font-size: $heading-f-size - 10;
-            }
-            @include when-sm {
-                font-size: $heading-f-size - 10;
-            }
-            @include when-lg {
-                font-size: $heading-f-size;
-            }
         }
         p{
             margin-top: 0;
@@ -73,10 +44,6 @@ a{text-decoration: none;}
             line-height: 1.7;
             color: $para-color;
             margin-bottom: 35px;
-            @include when-xs{ //extra small screen
-                color: $white;
-                font-weight: bold;
-            }
         }
     }
 }
@@ -90,33 +57,13 @@ a{text-decoration: none;}
         width: 100%;
         flex-wrap: unset;
         align-items: stretch;
-        @include when-xs{flex-wrap: wrap;}
         .collab-img{
             width: 60%;
-            @include when-xs{ //extra small screen
-                width: 100%;
-            }
-            @include when-sm{ //small screen
-                width: 40%;
-            }
-            @include when-md{ //small screen
-                width: 60%;
-            }
                 }
         .collab-desc{
             width: 40%;
             color: $white;
             margin-left: 70px;
-            @include when-xs{ //extra small screen
-                width: 100%;
-                margin-left: 0;
-                margin-top: 25px;
-            }
-            @include when-sm{ //small screen
-                width: 50%;
-            }
-            @include when-md{ //small screen
-                width: 40%;
             }
             h2{
                 margin-top: 0;
@@ -124,15 +71,6 @@ a{text-decoration: none;}
                 margin-bottom: 0;
                 font-family: $poppins;
                 font-size: $heading-f-size;
-                @include when-xs{ //extra small screen
-                    font-size: $heading-f-size - 13;
-                }
-                @include when-sm{  //small screen
-                    font-size: $heading-f-size - 15;
-                }
-                @include when-md{  //medium screen
-                    font-size: $heading-f-size ;
-                }
             }
             ul{
                 list-style: unset;
@@ -143,12 +81,6 @@ a{text-decoration: none;}
                     font-size: $heading-f-size - 15;
                 }
             }
-            a.btn-red{
-                @include when-xs{ //extra small screen
-                    width: fit-content;
-                    font-size:15px;
-                    padding: 7px 17px;
-                }
             }
             a.learn-more{
                 margin: auto;
@@ -157,14 +89,12 @@ a{text-decoration: none;}
                 margin-top: 10px;
                 width: fit-content;
                 transition: $transition ;
+                font-size: $heading-f-size - 15;
                 &:hover{
                     color: $hover-gray;
                 }
-                font-size: $heading-f-size - 15;
             }
         }
-    }
-}
 
 // what is npm
 .what-npm{
@@ -172,9 +102,6 @@ a{text-decoration: none;}
     @extend %background-cover;
     @extend %row-container;
     width: 100%;
-    @include when-xs{ //extra small screen
-        padding-top: 45px;
-    }
     .desc{
         width: 30%;
         color: $white;
@@ -182,11 +109,6 @@ a{text-decoration: none;}
         padding-left: 10px;
         padding-right: 10px;
         font-family: $sans;
-        @include when-xs{ //extra small screen
-            width: 100%;
-            margin-top: 0;
-            padding: 0;
-        }
         h2{
             font-weight: 100;
             line-height: 1.2;
@@ -222,10 +144,6 @@ a{text-decoration: none;}
         .service-box{
             @extend %txt-center;
             width: 25%;
-            @include when-xs{ //extra small screen
-                width: 100%;
-                margin-bottom: 20px;
-            }
             .image-box{
                 img{
                     width: 80px;
@@ -263,21 +181,12 @@ a{text-decoration: none;}
     .enterprise-row{
         @extend %display-flex;
         @extend %row-container;
-        @include when-xs{ //extra small screen
-            width: 100%;
-        }
         .mountain-img{
             width: 40%;
-            @include when-xs{ //extra small screen
-                width: 100%;
-            }
         }
         .about-enterprise{
             width: 45%;
             color: $white;
-            @include when-xs{ //extra small screen
-                width: 100%;
-            }
             h2{
                 font-size: $heading-f-size - 10;
                 font-weight: 100;
@@ -296,11 +205,6 @@ a{text-decoration: none;}
                 font-size: $heading-f-size - 20;
                 padding: 5px 18px;
                 font-family: $poppins;
-                @include when-xs{ //extra small screen
-                    width: 266px;
-                    font-size: 14px;
-                    padding: 7px 5px;
-                }
             }
         }
     }
@@ -323,9 +227,6 @@ a{text-decoration: none;}
             @extend %display-flex;
             width: 31%;
             padding-left: 15px;
-            @include when-xs{
-                width: 100%;
-            }
             .item{
                 @extend %display-flex;
                 width: 100%;
@@ -371,10 +272,6 @@ a{text-decoration: none;}
             @extend %display-flex;
             width: 31%;
             justify-content: space-around;
-            @include when-xs{
-                width: 100%;
-                margin-bottom: 25px;
-            }
             .team-pic{
                 width: 80px;
                 img{

@@ -10,10 +10,6 @@ footer{
             width: 31%;
             margin-left: 15px;
             font-family: $poppins;
-            @include when-xs{
-                width: 100%;
-                text-align: center;
-            }
             h4{
                 font-size: 16px;
             }
@@ -23,10 +19,6 @@ footer{
                     margin-bottom: 10px;
                     width: fit-content;
                     font-size: 12px;
-                    @include when-xs{
-                        margin: auto;
-                        margin-bottom: 10px;
-                    }
                     a{
                     color: $black;
                     transition: $transition;

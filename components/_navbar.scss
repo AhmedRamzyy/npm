@@ -10,9 +10,6 @@
         padding-bottom: 20px;
         .logo {
             width: 100px;
-            @include when-xs{ //extra small screen
-                width: 70px;
-            }
             img {
                 max-width: 100%;
             }
@@ -42,10 +39,7 @@
                 &::placeholder{
                     font-family: $fira-mono;
                     font-size: $heading-f-size - 22;
-                    @include when-md{ //medium screen
-                        font-size: $heading-f-size - 18;
-                    }
-                }
+                            }
                 &:focus{
                     border: 1px solid $hover-gray;
                 }
@@ -59,14 +53,6 @@
             transition: $transition;
             &:hover{
                 color: $hover-gray;
-            }
-            @include when-xs{ //extra small screen
-                width: 20%;
-                font-size: $link-font - 3;
-                font-weight: bold;
-            }
-            @include when-md{ //medium screen
-                font-size: $link-font + 3;
             }
         }
     }

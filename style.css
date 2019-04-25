@@ -3,12 +3,12 @@
 @import url("https://fonts.googleapis.com/css?family=Fira+Mono");
 .btn-gray, .btn-yellow, .btn-blue, .btn-red {
   display: block;
-  color: #d6d6d6;
+  color: #ffffff;
   width: fit-content;
   text-align: center;
   font-size: 16px;
   text-decoration: none;
-  padding: 3px 65px;
+  padding: 10px 65px;
   transition: all 0.3s ease-in-out;
   font-family: "Fira Mono", monospace;
   border-radius: 25px; }
@@ -66,18 +66,15 @@ footer .footer-row, .navigation .navbar, .navigation .navbar .search-bar, .price
 
 .border-left {
   border-left: 0.5px solid #e5e3e3; }
-  @media (max-width: 767px) {
-    .border-left {
-      border: 0; } }
 
 .btn-gray, .btn-yellow, .btn-blue, .btn-red {
   display: block;
-  color: #d6d6d6;
+  color: #ffffff;
   width: fit-content;
   text-align: center;
   font-size: 16px;
   text-decoration: none;
-  padding: 3px 65px;
+  padding: 10px 65px;
   transition: all 0.3s ease-in-out;
   font-family: "Fira Mono", monospace;
   border-radius: 25px; }
@@ -135,9 +132,6 @@ footer .footer-row, .navigation .navbar, .navigation .navbar .search-bar, .price
 
 .border-left {
   border-left: 0.5px solid #e5e3e3; }
-  @media (max-width: 767px) {
-    .border-left {
-      border: 0; } }
 
 .btn-gray {
   background-color: #545151; }
@@ -162,12 +156,12 @@ footer .footer-row, .navigation .navbar, .navigation .navbar .search-bar, .price
 
 .btn-gray, .btn-yellow, .btn-blue, .btn-red {
   display: block;
-  color: #d6d6d6;
+  color: #ffffff;
   width: fit-content;
   text-align: center;
   font-size: 16px;
   text-decoration: none;
-  padding: 3px 65px;
+  padding: 10px 65px;
   transition: all 0.3s ease-in-out;
   font-family: "Fira Mono", monospace;
   border-radius: 25px; }
@@ -225,9 +219,6 @@ footer .footer-row, .navigation .navbar, .navigation .navbar .search-bar, .price
 
 .border-left {
   border-left: 0.5px solid #e5e3e3; }
-  @media (max-width: 767px) {
-    .border-left {
-      border: 0; } }
 
 footer {
   padding: 50px 0; }
@@ -235,10 +226,6 @@ footer {
     width: 31%;
     margin-left: 15px;
     font-family: "Poppins", sans-serif; }
-    @media (max-width: 767px) {
-      footer .footer-row .npm-links {
-        width: 100%;
-        text-align: center; } }
     footer .footer-row .npm-links h4 {
       font-size: 16px; }
     footer .footer-row .npm-links ul {
@@ -247,10 +234,6 @@ footer {
         margin-bottom: 10px;
         width: fit-content;
         font-size: 12px; }
-        @media (max-width: 767px) {
-          footer .footer-row .npm-links ul li {
-            margin: auto;
-            margin-bottom: 10px; } }
         footer .footer-row .npm-links ul li a {
           color: #000;
           transition: all 0.3s ease-in-out; }
@@ -259,12 +242,12 @@ footer {
 
 .btn-gray, .btn-yellow, .btn-blue, .btn-red {
   display: block;
-  color: #d6d6d6;
+  color: #ffffff;
   width: fit-content;
   text-align: center;
   font-size: 16px;
   text-decoration: none;
-  padding: 3px 65px;
+  padding: 10px 65px;
   transition: all 0.3s ease-in-out;
   font-family: "Fira Mono", monospace;
   border-radius: 25px; }
@@ -322,9 +305,6 @@ footer .footer-row, .navigation .navbar, .navigation .navbar .search-bar, .price
 
 .border-left {
   border-left: 0.5px solid #e5e3e3; }
-  @media (max-width: 767px) {
-    .border-left {
-      border: 0; } }
 
 .navigation .navbar {
   flex-wrap: unset !important;
@@ -332,9 +312,6 @@ footer .footer-row, .navigation .navbar, .navigation .navbar .search-bar, .price
   padding-bottom: 20px; }
   .navigation .navbar .logo {
     width: 100px; }
-    @media (max-width: 767px) {
-      .navigation .navbar .logo {
-        width: 70px; } }
     .navigation .navbar .logo img {
       max-width: 100%; }
   .navigation .navbar .search-bar {
@@ -359,9 +336,6 @@ footer .footer-row, .navigation .navbar, .navigation .navbar .search-bar, .price
       .navigation .navbar .search-bar input[type="search"]::placeholder {
         font-family: "Fira Mono", monospace;
         font-size: 13px; }
-        @media (min-width: 992px) {
-          .navigation .navbar .search-bar input[type="search"]::placeholder {
-            font-size: 17px; } }
       .navigation .navbar .search-bar input[type="search"]:focus {
         border: 1px solid #a09e9e; }
   .navigation .navbar .login {
@@ -372,38 +346,18 @@ footer .footer-row, .navigation .navbar, .navigation .navbar .search-bar, .price
     transition: all 0.3s ease-in-out; }
     .navigation .navbar .login:hover {
       color: #a09e9e; }
-    @media (max-width: 767px) {
-      .navigation .navbar .login {
-        width: 20%;
-        font-size: 12px;
-        font-weight: bold; } }
-    @media (min-width: 992px) {
-      .navigation .navbar .login {
-        font-size: 18px; } }
 
 .price-plan {
   padding: 50px 0;
   background-color: #dbdbdb; }
   .price-plan header h2, .price-plan .foot h2 {
     margin-top: 0; }
-  @media (max-width: 767px) {
-    .price-plan .price-row {
-      padding-top: 25px; } }
   .price-plan .price-row .plan {
     width: 31%;
     background: #fff;
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 20px; }
-    @media (max-width: 767px) {
-      .price-plan .price-row .plan {
-        width: 100%; } }
-    @media (min-width: 768px) {
-      .price-plan .price-row .plan {
-        width: 100%; } }
-    @media (min-width: 992px) {
-      .price-plan .price-row .plan {
-        width: 31%; } }
     .price-plan .price-row .plan .heading {
       font-size: 35px;
       text-align: right;
@@ -435,28 +389,17 @@ footer .footer-row, .navigation .navbar, .navigation .navbar .search-bar, .price
       width: 195px;
       margin-top: 30px;
       padding: 7px 35px; }
-      @media (max-width: 767px) {
-        .price-plan .price-row .plan a {
-          width: fit-content;
-          font-size: 15px;
-          padding: 7px 17px; } }
-      @media (min-width: 992px) {
-        .price-plan .price-row .plan a {
-          margin: auto;
-          width: auto;
-          margin-top: 30px;
-          padding: 7px 18px; } }
     .price-plan .price-row .plan .btn-yellow {
       margin-top: 55px; }
 
 .btn-gray, .btn-yellow, .btn-blue, .btn-red {
   display: block;
-  color: #d6d6d6;
+  color: #ffffff;
   width: fit-content;
   text-align: center;
   font-size: 16px;
   text-decoration: none;
-  padding: 3px 65px;
+  padding: 10px 65px;
   transition: all 0.3s ease-in-out;
   font-family: "Fira Mono", monospace;
   border-radius: 25px; }
@@ -514,9 +457,6 @@ footer .footer-row, .navigation .navbar, .navigation .navbar .search-bar, .price
 
 .border-left {
   border-left: 0.5px solid #e5e3e3; }
-  @media (max-width: 767px) {
-    .border-left {
-      border: 0; } }
 
 .header .head {
   font-family: "Poppins", sans-serif; }
@@ -618,52 +558,21 @@ a {
   background: url(images/desc.SVG);
   background-size: cover;
   padding: 90px 0; }
-  @media (max-width: 767px) {
-    .npm-desc {
-      padding: 40px 0 20px;
-      height: 55vh; } }
-  @media (min-width: 768px) {
-    .npm-desc {
-      padding: 110px 0 20px;
-      height: 53vh; } }
-  @media (min-width: 992px) {
-    .npm-desc {
-      padding: 90px 0;
-      height: 80vh; } }
   .npm-desc .description {
     width: 30%;
     color: #fff;
     font-family: "Poppins", sans-serif; }
-    @media (max-width: 767px) {
-      .npm-desc .description {
-        width: 100%; } }
-    @media (min-width: 768px) {
-      .npm-desc .description {
-        width: 45%; } }
     .npm-desc .description h1 {
       font-size: 35px;
       margin-bottom: 15px;
       font-weight: 100;
       line-height: 1.2; }
-      @media (max-width: 767px) {
-        .npm-desc .description h1 {
-          font-size: 25px; } }
-      @media (min-width: 768px) {
-        .npm-desc .description h1 {
-          font-size: 25px; } }
-      @media (min-width: 1200px) {
-        .npm-desc .description h1 {
-          font-size: 35px; } }
     .npm-desc .description p {
       margin-top: 0;
       font-size: 15px;
       line-height: 1.7;
       color: #afc6d2;
       margin-bottom: 35px; }
-      @media (max-width: 767px) {
-        .npm-desc .description p {
-          color: #fff;
-          font-weight: bold; } }
 
 .about-org {
   background: #051b2df5; }
@@ -671,79 +580,39 @@ a {
     width: 100%;
     flex-wrap: unset;
     align-items: stretch; }
-    @media (max-width: 767px) {
-      .about-org .collaboration {
-        flex-wrap: wrap; } }
     .about-org .collaboration .collab-img {
       width: 60%; }
-      @media (max-width: 767px) {
-        .about-org .collaboration .collab-img {
-          width: 100%; } }
-      @media (min-width: 768px) {
-        .about-org .collaboration .collab-img {
-          width: 40%; } }
-      @media (min-width: 992px) {
-        .about-org .collaboration .collab-img {
-          width: 60%; } }
     .about-org .collaboration .collab-desc {
       width: 40%;
       color: #fff;
       margin-left: 70px; }
-      @media (max-width: 767px) {
-        .about-org .collaboration .collab-desc {
-          width: 100%;
-          margin-left: 0;
-          margin-top: 25px; } }
-      @media (min-width: 768px) {
-        .about-org .collaboration .collab-desc {
-          width: 50%; } }
-      @media (min-width: 992px) {
-        .about-org .collaboration .collab-desc {
-          width: 40%; } }
-      .about-org .collaboration .collab-desc h2 {
-        margin-top: 0;
-        font-weight: 100;
-        margin-bottom: 0;
-        font-family: "Poppins", sans-serif;
-        font-size: 35px; }
-        @media (max-width: 767px) {
-          .about-org .collaboration .collab-desc h2 {
-            font-size: 22px; } }
-        @media (min-width: 768px) {
-          .about-org .collaboration .collab-desc h2 {
-            font-size: 20px; } }
-        @media (min-width: 992px) {
-          .about-org .collaboration .collab-desc h2 {
-            font-size: 35px; } }
-      .about-org .collaboration .collab-desc ul {
-        list-style: unset;
-        padding-left: 20px; }
-        .about-org .collaboration .collab-desc ul li {
-          line-height: 1.3;
-          margin-bottom: 20px;
-          font-size: 20px; }
-      @media (max-width: 767px) {
-        .about-org .collaboration .collab-desc a.btn-red {
-          width: fit-content;
-          font-size: 15px;
-          padding: 7px 17px; } }
-      .about-org .collaboration .collab-desc a.learn-more {
-        margin: auto;
-        display: block;
-        color: #fff;
-        margin-top: 10px;
-        width: fit-content;
-        transition: all 0.3s ease-in-out;
+    .about-org .collaboration h2 {
+      margin-top: 0;
+      font-weight: 100;
+      margin-bottom: 0;
+      font-family: "Poppins", sans-serif;
+      font-size: 35px; }
+    .about-org .collaboration ul {
+      list-style: unset;
+      padding-left: 20px; }
+      .about-org .collaboration ul li {
+        line-height: 1.3;
+        margin-bottom: 20px;
         font-size: 20px; }
-        .about-org .collaboration .collab-desc a.learn-more:hover {
-          color: #a09e9e; }
+  .about-org a.learn-more {
+    margin: auto;
+    display: block;
+    color: #fff;
+    margin-top: 10px;
+    width: fit-content;
+    transition: all 0.3s ease-in-out;
+    font-size: 20px; }
+    .about-org a.learn-more:hover {
+      color: #a09e9e; }
 
 .what-npm {
   background: url(images/npm-is-BOXES.svg);
   width: 100%; }
-  @media (max-width: 767px) {
-    .what-npm {
-      padding-top: 45px; } }
   .what-npm .desc {
     width: 30%;
     color: #fff;
@@ -751,11 +620,6 @@ a {
     padding-left: 10px;
     padding-right: 10px;
     font-family: sans-serif; }
-    @media (max-width: 767px) {
-      .what-npm .desc {
-        width: 100%;
-        margin-top: 0;
-        padding: 0; } }
     .what-npm .desc h2 {
       font-weight: 100;
       line-height: 1.2;
@@ -772,10 +636,6 @@ a {
 
 .discover .services-row .service-box {
   width: 25%; }
-  @media (max-width: 767px) {
-    .discover .services-row .service-box {
-      width: 100%;
-      margin-bottom: 20px; } }
   .discover .services-row .service-box .image-box img {
     width: 80px; }
   .discover .services-row .service-box .explain .ex-head {
@@ -798,20 +658,11 @@ a {
 
 .enterprise {
   background: #051b2df5; }
-  @media (max-width: 767px) {
-    .enterprise .enterprise-row {
-      width: 100%; } }
   .enterprise .enterprise-row .mountain-img {
     width: 40%; }
-    @media (max-width: 767px) {
-      .enterprise .enterprise-row .mountain-img {
-        width: 100%; } }
   .enterprise .enterprise-row .about-enterprise {
     width: 45%;
     color: #fff; }
-    @media (max-width: 767px) {
-      .enterprise .enterprise-row .about-enterprise {
-        width: 100%; } }
     .enterprise .enterprise-row .about-enterprise h2 {
       font-size: 25px;
       font-weight: 100;
@@ -828,11 +679,6 @@ a {
       font-size: 15px;
       padding: 5px 18px;
       font-family: "Poppins", sans-serif; }
-      @media (max-width: 767px) {
-        .enterprise .enterprise-row .about-enterprise a {
-          width: 266px;
-          font-size: 14px;
-          padding: 7px 5px; } }
 
 .npm-packages {
   padding: 30px 0; }
@@ -843,9 +689,6 @@ a {
   .npm-packages .packages-row .packages {
     width: 31%;
     padding-left: 15px; }
-    @media (max-width: 767px) {
-      .npm-packages .packages-row .packages {
-        width: 100%; } }
     .npm-packages .packages-row .packages .item {
       width: 100%; }
       .npm-packages .packages-row .packages .item:not(:last-of-type) {
@@ -875,10 +718,6 @@ a {
   .our-team .team-row .team-card {
     width: 31%;
     justify-content: space-around; }
-    @media (max-width: 767px) {
-      .our-team .team-row .team-card {
-        width: 100%;
-        margin-bottom: 25px; } }
     .our-team .team-row .team-card .team-pic {
       width: 80px; }
       .our-team .team-row .team-card .team-pic img {

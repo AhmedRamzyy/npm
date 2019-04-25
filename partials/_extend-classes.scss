@@ -65,7 +65,4 @@
 .border-bottom{border-bottom: .5px solid $border-color;}
 .border-left{
     border-left: .5px solid $border-color;
-    @include when-xs{ //extra small screen
-        border: 0;
-    }
 }
